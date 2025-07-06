@@ -23,7 +23,7 @@ public class main {
             System.out.println();
             switch (numeroMenu){
                 case 1:
-                    listDeNinja.add(new Ninja());
+                    listDeNinja.addFirst(new Ninja());
                     break;
 
                 case 2:
